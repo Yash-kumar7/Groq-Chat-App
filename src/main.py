@@ -47,7 +47,7 @@ if "chat_history" not in st.session_state:
 
 # page title
 st.title("Welcome Hacker!")
-st.caption("Helping You Level Up Your Coding Game")
+st.caption("Helping You Level Up Your Coding Game.")
 # the messages in chat_history will be stored as {"role":"user/assistant", "content":"msg}
 # display chat history
 for message in st.session_state.chat_history:
