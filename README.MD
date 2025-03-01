@@ -5,11 +5,11 @@ In this tutorial, I'll build and deploy a personalised AI-powered chat applicati
 ## Getting Started
 
 First sign in to [https://groq.com/](https://groq.com/) and click `start building`
-![Groq API](./images/1.png)
+![Groq API](./images/1.PNG)
 
 Click on `Create API key` then create a new key, copy it and keep it somewhere safe.
 
-![Groq API Key](./images/2.png)
+![Groq API Key](./images/2.PNG)
 
 Now install the necessary libraries:
 Create the requirements.txt file and paste this
@@ -95,7 +95,7 @@ Let's set up the chat history and initialize the AI model:
 
 - Copy your favourite AI-model's `Model ID` from [https://console.groq.com/docs/models](https://console.groq.com/docs/models):
 
-![Groq supported models](./images/3.png)
+![Groq supported models](./images/3.PNG)
 
 I used `llama-3.1-8b-instant` for my project.
 
@@ -287,22 +287,22 @@ First upload the codebase in a [GitHub](https://github.com/) repository.
 Then [click here](https://streamlit.io/) to sign in to your streamlit account and go to `My Apps` section:
 
 - Click on `Create app` at the upper right corner.
-  ![Create streamlit app](/images/4.png)
+  ![Create streamlit app](/images/4.PNG)
 
 - Click on first option:
-  ![streamlit create app](/images/5.png)
+  ![streamlit create app](/images/5.PNG)
 
 - Locate your github repository:
-  ![streamlit create app - locate your github repo](/images/6.png)
+  ![streamlit create app - locate your github repo](/images/6.PNG)
 
 - Locate the your `main.py` file:
-  ![streamlit create app - locate your app file](/images/6.png)
+  ![streamlit create app - locate your app file](/images/6.PNG)
 
 - Create a custom url for your deployed app(optional):
-  ![streamlit create app - create custom url](images/6.png)
+  ![streamlit create app - create custom url](images/6.PNG)
 
 - Click on `additional settings` and paste everything from your `.env` file (this is the `st.secrets`):
-  ![streamlit create app - configure the secrets](/images/7.png)
+  ![streamlit create app - configure the secrets](/images/7.PNG)
 
 - Click on deploy:
 
