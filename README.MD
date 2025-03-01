@@ -287,22 +287,22 @@ First upload the codebase in a [GitHub](https://github.com/) repository.
 Then [click here](https://streamlit.io/) to sign in to your streamlit account and go to `My Apps` section:
 
 - Click on `Create app` at the upper right corner.
-  ![Create streamlit app](./images/4.png)
+  ![Create streamlit app](/images/4.png)
 
 - Click on first option:
-  ![streamlit create app](./images/5.png)
+  ![streamlit create app](/images/5.png)
 
 - Locate your github repository:
-  ![streamlit create app - locate your github repo](./images/6.png)
+  ![streamlit create app - locate your github repo](/images/6.png)
 
 - Locate the your `main.py` file:
-  ![streamlit create app - locate your app file](./images/6.png)
+  ![streamlit create app - locate your app file](/images/6.png)
 
 - Create a custom url for your deployed app(optional):
-  ![streamlit create app - create custom url](./images/6.png)
+  ![streamlit create app - create custom url](images/6.png)
 
 - Click on `additional settings` and paste everything from your `.env` file (this is the `st.secrets`):
-  ![streamlit create app - configure the secrets](./images/7.png)
+  ![streamlit create app - configure the secrets](/images/7.png)
 
 - Click on deploy:
 
