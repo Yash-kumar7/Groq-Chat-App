@@ -121,8 +121,8 @@ Let's create the chat interface using Streamlit:
 
 ```python
 # Page title
-st.title("Hey Buddy!")
-st.caption("Let's go back in time...")
+st.title("Welcome Hacker!")
+st.caption("Helping You Level Up Your Coding Game.")
 
 # Display chat history
 for message in st.session_state.chat_history:
